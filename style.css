@@ -87,6 +87,24 @@ html{
     color: #333;
     transition: 0.3s cubic-bezier(0.32, 0, 0.67, 0);
 }
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    width: 100%;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    color: #4f85f9;
+    transition: 0.3s cubic-bezier(0.32, 0, 0.67, 0);
+}
 @media screen and (max-width: 500px) {
     #title{
         font-size: 4.5rem;
